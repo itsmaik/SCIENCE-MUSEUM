@@ -1,5 +1,4 @@
-/*----------------Hero----------------*/
-
+/*-----------------------------Hero section------------------------------------*/
 #hero-section {
   background-image: url(/images/home-img/hero-img-1.png);
   background-size: cover;
@@ -22,3 +21,7 @@
 #hero-text p {
   padding-bottom: 5%;
 }
+
+/*-----------------------------section-1------------------------------------*/
+
+

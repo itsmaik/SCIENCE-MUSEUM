@@ -16,8 +16,7 @@ body {
   background: linear-gradient(180deg, rgba(98, 77, 217, 0.312) 0%, rgba(111, 160, 170, 0.4) 85.98%, rgba(51, 190, 219, 0.4) 85.98%, rgba(51, 190, 219, 0.248) 85.98%);
 }
 
-/*----------------Header----------------*/
-
+/*--------------------------------------Header-----------------------------------*/
 header {
   background-color: #011420;
   width: 100%;
@@ -47,8 +46,7 @@ header {
   color: #FFFFFF;
 }
 
-/*----------------Footer----------------*/
-
+/*-------------------------------------Footer-----------------------------------*/
 footer {
   background-color: #011420;
   width: 100%;
@@ -95,6 +93,7 @@ p {
   font-family: 'poppins', sans-serif;
 }
 
+/*---------------------------------main button-------------------------------*/
 .main-btn {
   color: white;
   background-color: #3795af;
@@ -104,3 +103,39 @@ p {
   font-family: 'montserrat', sans-serif;
   font-weight: 500;
 }
+
+/*---------------------------------divide lines-------------------------------*/
+.divider-sections {
+  position: relative;
+  margin: 25px auto;
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.075em;
+  color: #19213A;
+}
+
+.divider-sections::before {
+  background: #19213A;
+  display: inline-block;
+  width: 35%;
+  height: 8px;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 40%;
+}
+
+.divider-sections::after {
+  background: #19213A;
+  display: block;
+  width: 35%;
+  height: 8px;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+
