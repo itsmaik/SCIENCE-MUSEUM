@@ -11,7 +11,7 @@ html {
   
 body {
   max-width: 1440px;
-  height: auto;
+  height: fit-content;
   margin: 0 auto;
   background: linear-gradient(180deg, rgba(98, 77, 217, 0.312) 0%, rgba(111, 160, 170, 0.4) 85.98%, rgba(51, 190, 219, 0.4) 85.98%, rgba(51, 190, 219, 0.248) 85.98%);
 }
@@ -38,7 +38,7 @@ header {
 
 .menu-link {
   text-decoration: none;
-  font-family: 'Montserrat';
+  font-family: 'roboto condensed', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -55,16 +55,17 @@ footer {
 }
 
 .footer-text {
-  font-family: 'Montserrat';
+  font-family: 'roboto condensed', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 .footer-text-p {
-  font-family: 'Poppins';
+  font-family: 'roboto condensed', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
@@ -85,12 +86,19 @@ footer {
 .headline-style {
   font-size: 36px;
   font-family: 'playfair display', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 p {
   font-size: 18px;
-  font-family: 'poppins', sans-serif;
+  font-family: 'roboto condensed', sans-serif;
+}
+
+.headline-style-2 {
+  font-size: 30px;
+  font-family: 'playfair display', sans-serif;
+  font-weight: 400;
+  text-align: center;
 }
 
 /*---------------------------------main button-------------------------------*/
