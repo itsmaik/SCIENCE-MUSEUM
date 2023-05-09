@@ -1,0 +1,24 @@
+/*----------------Hero----------------*/
+
+#hero-section {
+  background-image: url(/images/home-img/hero-img-1.png);
+  background-size: cover;
+  height: 90vh;
+
+}
+
+#hero-text {
+  width: 32%;
+  height: auto;
+  padding-top: 25%;
+  padding-left: 5%;
+  color: white;
+}
+
+#hero-text .headline-style {
+  margin: 0;
+}
+
+#hero-text p {
+  padding-bottom: 5%;
+}
