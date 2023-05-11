@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #FFFFFF;
+  font-size: 18px;
   }
   
   *,
@@ -38,7 +39,7 @@ header {
 
 .menu-link {
   text-decoration: none;
-  font-family: 'roboto condensed', sans-serif;
+  font-family: 'montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -51,13 +52,11 @@ header {
   font-size: 36px;
   font-family: 'playfair display', sans-serif;
   font-weight: 600;
-  margin: 1% 0%;
 }
 
 p {
   font-size: 18px;
-  font-family: 'roboto condensed', sans-serif;
-  margin: 0;
+  font-family: 'montserrat', sans-serif;
 }
 
 .headline-style-2 {
@@ -92,7 +91,7 @@ p {
 .divider-sections {
   position: relative;
   text-align: center;
-  font-family: 'Poppins';
+  font-family: 'montserrat';
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -133,7 +132,7 @@ footer {
 }
 
 .footer-text {
-  font-family: 'roboto condensed', sans-serif;
+  font-family: 'montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -143,7 +142,7 @@ footer {
 }
 
 .footer-text-p {
-  font-family: 'roboto condensed', sans-serif;
+  font-family: 'montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;

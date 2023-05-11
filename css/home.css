@@ -2,7 +2,7 @@
 #hero-section {
   background-image: url(/images/home-img/hero-img-1.png);
   background-size: cover;
-  height: 90vh;
+  height: 895px;
 }
 
 #hero-text {
@@ -15,10 +15,12 @@
 
 #hero-text .headline-style {
   margin: 0;
+  line-height: 2.5rem;
 }
 
 #hero-text p {
   padding-bottom: 5%;
+  line-height: 1.5rem;
 }
 
 /*-----------------------------section-1------------------------------------*/
@@ -31,7 +33,7 @@
 /*-----------------------------section-2------------------------------------*/
 .section-2-image img {
   display: flex;
-  width: 66vw;
+  width: 85%;
   margin: auto;
 }
 
@@ -41,8 +43,8 @@
   flex-flow: column;
   justify-content: center;
   margin: auto;
-  width: 66vw;
-  height: 40vh;
+  width: 85%;
+  height: 370px;
 }
 
 .section-2-container p {
@@ -54,8 +56,13 @@
 /*-----------------------------section-3------------------------------------*/
 .section-3-image img {
   display: flex;
-  width: 66vw;
+  width: 85%;
   margin: auto;
+}
+
+#h2-section-3 {
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .section-3-container {
@@ -64,8 +71,8 @@
   flex-flow: column;
   justify-content: center;
   margin: auto;
-  width: 66vw;
-  height: 40vh;
+  width: 85%;
+  height: 336px;
 }
 
 /*-----------------------------section-4------------------------------------*/
