@@ -7,7 +7,6 @@
 
 #hero-text {
   width: 32%;
-  height: auto;
   padding-top: 25%;
   padding-left: 5%;
   color: white;
@@ -88,6 +87,9 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-radius:100%;
+  -moz-border-radius:100%;
+  -webkit-border-radius:100%;
 }
 
 .section-4-container {
@@ -103,12 +105,15 @@ section {
 
 #circle-1 {
   background-color: #3795AF;
+  border: 12px solid #EC9558;
 }
 
 #circle-2 {
   background-color: #EC9558;
+  border: 12px solid #7B8FD9;
 }
 
 #circle-3 {
   background-color: #7B8FD9;
+  border: 12px solid #3795AF;
 }

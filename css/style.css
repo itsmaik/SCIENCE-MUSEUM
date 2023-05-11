@@ -30,10 +30,10 @@ header {
 
 #header-nav {
   display: flex;
-  gap: 10%;
+  gap: 5%;
   width: 100%;
   justify-content: flex-end;
-  margin-right: 8%;
+  margin-right: 4%;
   align-items: center;
 }
 
@@ -45,6 +45,12 @@ header {
   font-size: 22px;
   line-height: 27px;
   color: #FFFFFF;
+  padding: 12px 25px;
+}
+
+.menu-link:hover {
+  background-color: #2D86A8;
+  border-radius: 30px;
 }
 
 /*---------------------------------styles-------------------------------*/
@@ -85,8 +91,13 @@ p {
   padding: 3% 6%;
   font-family: 'montserrat', sans-serif;
   font-weight: 500;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+.main-btn:hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
 /*---------------------------------divide lines-------------------------------*/
 .divider-sections {
   position: relative;
