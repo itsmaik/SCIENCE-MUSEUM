@@ -3,6 +3,7 @@
   background-image: url(/images/home-img/hero-img-1.png);
   background-size: cover;
   height: 895px;
+  margin-bottom: 80px;
 }
 
 #hero-text {
@@ -18,7 +19,7 @@
 }
 
 #hero-text p {
-  padding-bottom: 5%;
+  padding-bottom: 2.5%;
   line-height: 1.5rem;
 }
 
@@ -41,15 +42,27 @@
   display: flex;
   flex-flow: column;
   justify-content: center;
+  align-items: center;
   margin: auto;
   width: 85%;
   height: 370px;
 }
 
 .section-2-container p {
-  width: 40%;
-  margin: auto;
+  width: 65%;
+  margin: 0;
   text-align: center;
+  padding: 1%;
+  line-height: 1.5;
+}
+
+#h2-section-2 {
+  margin: 0;
+  padding: 1%;
+}
+
+.section-2-container .main-btn {
+  margin-top: 2%;
 }
 
 /*-----------------------------section-3------------------------------------*/
@@ -61,7 +74,8 @@
 
 #h2-section-3 {
   text-transform: uppercase;
-  margin: 0;
+  width: 90%;
+  margin: 0px 0px 10px 0px;
 }
 
 .section-3-container {
@@ -69,9 +83,26 @@
   display: flex;
   flex-flow: column;
   justify-content: center;
+  align-items: center;
   margin: auto;
   width: 85%;
-  height: 336px;
+  height: 390px;
+}
+
+.section-3-container p {
+  width: 70%;
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+}
+
+#subtitle {
+  font-weight: 700;
+  padding-bottom: 2%;
+}
+
+.section-3-container .main-btn {
+  margin-top: 2%;
 }
 
 /*-----------------------------section-4------------------------------------*/

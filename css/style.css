@@ -58,6 +58,7 @@ header {
   font-size: 36px;
   font-family: 'playfair display', sans-serif;
   font-weight: 600;
+  margin: 0;
 }
 
 p {
@@ -82,22 +83,38 @@ p {
   color: #19213A;
 }
 
+.divider-p {
+  margin: 10px 0px;
+}
+
 /*---------------------------------main button-------------------------------*/
 .main-btn {
   color: white;
   background-color: #3795af;
   text-decoration: none;
   border-radius: 50px;
-  padding: 3% 6%;
+  padding: 12px 15px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'montserrat', sans-serif;
   font-weight: 500;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 0 auto;
 }
 
 .main-btn:hover {
   transform: scale(1.1);
   transition: .5s;
+  background-color: #EC9558;
+  color: black;
 }
+
+#hero-btn {
+  margin: 0;
+}
+
 /*---------------------------------divide lines-------------------------------*/
 .divider-sections {
   position: relative;
@@ -119,7 +136,7 @@ p {
   content: "";
   position: absolute;
   left: 0;
-  top: 40%;
+  top: 28%;
 }
 
 .divider-sections::after {
@@ -130,7 +147,7 @@ p {
   content: "";
   position: absolute;
   right: 0;
-  top: 40%;
+  top: 28%;
 }
 
 
