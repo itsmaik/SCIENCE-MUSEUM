@@ -1,0 +1,22 @@
+.section-explore {
+  display: flex;
+  margin: 10% 10%;
+}
+
+.explore-txt {
+  width: 40%;
+  align-self: center;
+  margin-left: 12%;
+  text-align: center;
+}
+
+.explore-p-txt {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#txt-invert {
+  margin-left: 0;
+  margin-right: 15%;
+  width: 60%;
+}
