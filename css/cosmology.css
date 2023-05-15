@@ -1,0 +1,48 @@
+
+.h1-cosmology {
+  width: 70%;
+  text-align: center;
+  margin: 3% auto;
+}
+
+.p-text-cosmology {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  font-style: normal;
+}
+
+#p-text-1-cos {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  padding-top: 20%;
+}
+
+.cosmology-container {
+  display: flex;
+  margin: 2% 5%;
+}
+
+#p-text-2-cosm {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+  background-color: black;
+  margin: 0%;
+}
+
+.container-images {
+  justify-content: space-between;
+  margin-bottom: 15%;
+  
+}
+
+.divider-cosmology {
+  margin-top: 7%;
+  padding-bottom: 1%;
+}
