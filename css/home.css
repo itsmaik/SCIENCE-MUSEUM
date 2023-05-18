@@ -32,6 +32,13 @@
   align-items: center;
 }
 
+#section-1-img-1:hover,
+#section-1-img-2:hover,
+#section-1-img-3:hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
+
 /*-----------------------------section-2------------------------------------*/
 .section-2-image img {
   display: flex;
@@ -149,4 +156,12 @@ section {
 #circle-3 {
   background-color: #7B8FD9;
   border: 12px solid #3795AF;
+}
+
+#circle-1:hover,
+#circle-2:hover,
+#circle-3:hover {
+  transform: scale(1.1);
+  transition: all .5s ease-in-out;
+  cursor: pointer;
 }

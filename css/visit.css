@@ -80,6 +80,8 @@
 .icons-box p:hover {
   color: black;
   cursor: pointer;
+  transform: scale(1.1);
+  transition: .5s;
 }
 
 .h2-icons-box {
