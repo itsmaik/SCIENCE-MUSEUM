@@ -12,7 +12,7 @@ body{
 .p-text-cosmology {
   font-family: 'Montserrat';
   font-weight: 500;
-  font-size: 28px;
+  font-size: 18px;
   line-height: 34px;
   text-align: center;
   font-style: normal;
@@ -20,9 +20,10 @@ body{
   padding-top: 4%;
 }
 
-#p-text-1-cos {
+#p-text-1-cosm {
   display: flex;
-  width: 60%;
+  width: 55%;
+  padding-left: 8%;
 }
 
 .cosmology-container {
@@ -38,7 +39,7 @@ body{
   padding: 4%;
   background-color: black;
   margin: 0%;
-  color: white;
+  color: orange;
 }
 
 .container-images {
