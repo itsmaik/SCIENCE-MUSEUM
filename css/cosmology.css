@@ -28,6 +28,7 @@ body{
 
 .cosmology-container {
   display: flex;
+  justify-content: space-between;
   margin: 2% 5%;
 }
 
@@ -39,13 +40,7 @@ body{
   padding: 4%;
   background-color: black;
   margin: 0%;
-  color: orange ;
-}
-
-.container-images {
-  justify-content: space-between;
-  margin-bottom: 15%;
-  
+  color: orange;
 }
 
 .divider-cosmology {
@@ -54,9 +49,64 @@ body{
   color: white;
 }
 
-.divider-cosmology::before,
-.divider-cosmology::after {
-  background: white;
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+  .cosmology-container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  #p-text-1-cosm {
+    display: flex;
+    width: 90%;
+    padding-left: 0;
+  }
+
+  #mid-page-section-image {
+    width: 100vw;
+  }
+
+  #p-text-2-cosm {
+    width: 90%;
+  }
+
+  .container-images {
+    width: 75%;
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .cosmology-container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  #planet-image-container {
+    width: 100%;
+  }
+
+  #p-text-1-cosm {
+    display: flex;
+    width: 90%;
+    padding-left: 0;
+  }
+
+  #mid-page-section-image {
+    width: 100vw;
+  }
+
+  #p-text-2-cosm {
+    width: auto;
+  }
+
+  .container-images {
+    width: 95%;
+    height: 200px;
+  }
 }
 
 /*-------------------shining effect------------------*/
