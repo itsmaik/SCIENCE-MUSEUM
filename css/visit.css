@@ -100,3 +100,62 @@
 .color-purple {
   background-color: #6350D8;
 }
+
+@media only screen and (min-width: 0px) and (max-width: 1180px) {
+  .visit-section:nth-child(3) {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .facilities-container {
+    width: 100%;
+  }
+
+  .address-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #map {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 769px) {
+  .visit-section:nth-child(2) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .visit-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .visit-container p {
+    width: 100%;
+  }
+
+  .hours-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .address-container {
+    align-items: center;
+  }
+
+  .facilities-container {
+    text-align: center;
+  }
+
+  .icons-first-row, .icons-second-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+}
