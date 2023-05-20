@@ -54,6 +54,11 @@ body{
   color: white;
 }
 
+.divider-cosmology::before,
+.divider-cosmology::after {
+  background: white;
+}
+
 /*-------------------shining effect------------------*/
 
 
