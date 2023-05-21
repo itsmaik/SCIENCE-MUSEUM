@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #FFFFFF;
-  font-size: 18px;
+  font-size: 16px;
   }
   
   *,
@@ -43,7 +43,7 @@ header {
   font-family: 'playfair display', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 27px;
   color: #FFFFFF;
   padding: 12px 25px;
@@ -56,7 +56,7 @@ header {
 
 /*---------------------------------styles-------------------------------*/
 .headline-style {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: 'playfair display', sans-serif;
   font-weight: 600;
   margin: 0;
@@ -64,12 +64,12 @@ header {
 }
 
 p {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: 'montserrat', sans-serif;
 }
 
 .headline-style-2 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: 'playfair display', sans-serif;
   font-weight: 400;
   text-align: center;
@@ -79,7 +79,7 @@ p {
 .headline-style-3 {
   font-family: 'roboto condensed', sans-serif;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 27px;
   text-align: center;
   color: #19213A;
@@ -123,7 +123,7 @@ p {
   text-align: center;
   font-family: 'montserrat';
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 30px;
   letter-spacing: 0.075em;
   color: #19213A;
@@ -165,8 +165,8 @@ footer {
   font-family: 'montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
   color: #FFFFFF;
   text-transform: uppercase;
 }
@@ -175,7 +175,7 @@ footer {
   font-family: 'montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 0.790rem;
   line-height: 16px;
   color: #FFFFFF;
   margin-top: 0;
@@ -282,10 +282,15 @@ footer {
   }
 
   .divider-sections::before {
-    width: 20%;
+    width: 13%;
   }
   
   .divider-sections::after {
-    width: 20%;
+    width: 13%;
   }
+
+  
+.footer-text-p {
+  font-size: 0.650rem;
+}
 }

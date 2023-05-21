@@ -47,6 +47,9 @@
   width: 100%;
   height: 100%;
 }
+
+/*-----------------------------sections-general-code------------------------------------*/
+
 .card-container {
   background: linear-gradient(180deg, rgba(98, 77, 217, 0.7), rgba(111, 160, 170, 0.7), rgba(51, 190, 219, 0.7), rgba(51, 190, 219, 0.7));
   display: flex;
@@ -70,12 +73,14 @@
   margin-top: 2%;
 }
 
+/*-----------------------------section-2------------------------------------*/
 .section-2-image img {
   display: flex;
   content: url('/images/home-img/pic-sec-2.png');
   width: 85%;
   margin: auto;
 }
+
 #h2-section-2 {
   margin: 0;
   padding: 1%;
@@ -85,7 +90,7 @@
 .section-3-image img {
   display: flex;
   height: fit-content;
-  content: url('/images/home-img/pic-sec-3.png');
+  content: url('../images/home-img/pic-sec-3.png');
   width: 85%;
   margin: auto;
 }
@@ -171,7 +176,7 @@ section {
   }
 
   #hero-text p {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .headline-style {
