@@ -72,7 +72,7 @@
 
 .section-2-image img {
   display: flex;
-  content: url('/images/home-img/pic1-sec1.png');
+  content: url('/images/home-img/pic-sec-2.png');
   width: 85%;
   margin: auto;
 }
@@ -85,7 +85,7 @@
 .section-3-image img {
   display: flex;
   height: fit-content;
-  content: url('/images/home-img/pic1-sec2.png');
+  content: url('/images/home-img/pic-sec-3.png');
   width: 85%;
   margin: auto;
 }
