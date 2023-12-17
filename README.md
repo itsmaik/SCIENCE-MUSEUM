@@ -1,6 +1,6 @@
 # Science Museum
 
-![image](/images/read-me-img-science-museum.png)
+![image](/images/read-me-img-exploratorium.png)
 
 The purpose of this project is to put into practice and showcase the skills learned over my first semester of Front-end Development studies.
 
